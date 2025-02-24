@@ -6,7 +6,7 @@ Welcome to the Eddie D's Pizzeria landing page repository—a project inspired b
 
 In the heart of Valley Stream, Eddie D's Pizzeria has become a local landmark. Eddie, a humble and passionate pizza maker, started his journey decades ago with a dream to bring people together over a shared love of good food. Today, his pizzeria is more than just a place to grab a bite—it's a community hub where every slice tells a story of tradition, care, and a whole lot of heart.
 
-This landing page is a tribute to Eddie and his decades-long dedication to crafting authentic New York pizza. With a classic red, white, and green color scheme and touches of skeuomorphism to evoke that nostalgic pizzeria charm, this site is designed to welcome every visitor like family.
+This landing page is a tribute to Eddie and his decades-long dedication to crafting authentic New York pizza. With a classic red, white, and green color scheme to evoke that nostalgic pizzeria charm, this site is designed to welcome every visitor like family.
 
 ## What You'll Find Here
 
