@@ -1,7 +1,3 @@
-Here's a feel-good README.md story for your GitHub repo:
-
----
-
 # Eddie D's Pizzeria Landing Page
 
 Welcome to the Eddie D's Pizzeria landing page repository—a project inspired by a timeless New York pizzeria that’s been serving up slices of love for over 40 years.
@@ -40,7 +36,4 @@ If you'd like to help enhance this project, please fork the repository and submi
 
 Thank you for stopping by. We hope this landing page brings a little extra warmth and joy to your day—just like a perfect slice of Eddie D's pizza.
 
----
-
-Enjoy, and happy coding!
 
