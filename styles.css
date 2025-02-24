@@ -84,3 +84,13 @@ footer {
         align-items: flex-start;
     }
 }
+
+.store-open {
+    color: green;
+    font-weight: bold;
+}
+
+.store-closed {
+    color: red;
+    font-weight: bold;
+}
