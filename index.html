@@ -9,7 +9,7 @@
 </head>
 <body onload="storeHours()">
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">Eddie D's Pizzeria</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -25,6 +25,7 @@
   </div>
 </nav>
 
+
 <!-- Hero Section -->
 <section class="hero">
   <div class="container">
@@ -34,17 +35,19 @@
 </section>
 
 <!-- About Section -->
-<section id="about" class="py-5">
-  <div class="container">
-    <h2 class="mb-4">About Eddie D's</h2>
-    <div class="row align-items-center">
+<section id="about" class="py-5" style="position: relative;">
+  <div class="container" style="position: relative;">
+    <!-- Absolutely positioned heading -->
+    <h1 class="about-heading">About Eddie D's</h1>
+
+    <!-- Add top padding to push the row below the heading -->
+    <div class="row align-items-center" style="padding-top: 100px;">
       <div class="col-md-6">
         <p>Eddie D's stands out as a quintessential New York pizzeria, capturing the essence of traditional pizza-making with a charm that resonates with locals and visitors alike. With over forty years of experience, Eddie has become a beloved figure in the Valley Stream community, dedicated to crafting exceptional pies that are as visually appealing as they are delicious. Each pizza features a thin, crispy crust paired with generous toppings, high-quality cheese, and a unique sauce blend.</p>
         <p>Customers rave about the consistent quality and freshness—with every slice made with care and passion. The old-school ambiance and welcoming atmosphere make Eddie D's a must-visit for pizza lovers of all kinds.</p>
         <p><strong>Eddie has been doing this for 40+ years!</strong></p>
       </div>
       <div class="col-md-6 text-center">
-        <!-- Replace the placeholder with a square image of Eddie -->
         <img src="eddie.png" alt="Eddie" class="img-fluid rounded">
       </div>
     </div>
@@ -151,16 +154,14 @@
         </div>
         <div><span>$5.50</span></div>
       </div>
-    </div>
-
-    <!-- Pizza Sub -->
-    <div class="menu-section">
       <div class="menu-item d-flex justify-content-between">
-        <div><h5>Pizza Sub</h5></div>
-        <div><span>$3.50</span></div>
+        <div>
+          <h5>Pizza Sub</h5>
+        </div>
+        <div><span>$4.50</span></div>
       </div>
     </div>
-    <br>
+
 
     <!-- Calzones and Rolls -->
     <div class="menu-section">
