@@ -5,47 +5,44 @@ function storeHours() {
     let isOpen = false;
     let wkdString;
 
-    if(weekday >= 1 && weekday <= 6 && hour >= 11 && hour <= 21) {
+    if (weekday >= 1 && weekday <= 6 && hour >= 11 && hour <= 21) {
         isOpen = true;
-    }else {
+    } else {
         isOpen = false;
     }
 
-    switch(weekday) {
+    switch (weekday) {
         case 1:
-            wkdString = "#mon";
-        break;
+            wkdString = "mon";
+            break;
         case 2:
-            wkdString = "#tues";
-        break;
+            wkdString = "tues";
+            break;
         case 3:
-            wkdString = "#wed";
+            wkdString = "wed";
             break;
         case 4:
-            wkdString = "#thurs";
+            wkdString = "thurs";
             break;
         case 5:
-            wkdString = "#fri";
+            wkdString = "fri";
             break;
         case 6:
-            wkdString = "#sat";
+            wkdString = "sat";
             break;
         default:
-            wkdString = "#sun";
+            wkdString = "sun";
             break;
     }
 
-    const hourState = document.querySelector(wkdString);
-    if(isOpen) {
+    // Grab the element by ID (no # in the string)
+    const hourState = document.getElementById(wkdString);
+
+    if (isOpen) {
         hourState.classList.add("store-open");
-        hourState.classList.remove("store.closed");
-        isOpen = true;
-    }else {
+        hourState.classList.remove("store-closed");
+    } else {
         hourState.classList.add("store-closed");
-        hourState.classList.remove("store.open");
-        isOpen = false;
+        hourState.classList.remove("store-open");
     }
-    window.setTimeout( function() {
-        window.location.reload();
-      }, 5000);
 }
