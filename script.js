@@ -1,3 +1,5 @@
+setInterval(storeHours, 1000);
+
 function storeHours() {
     let date = new Date();
     let weekday = date.getDay();
@@ -5,7 +7,7 @@ function storeHours() {
     let isOpen = false;
     let wkdString;
 
-    if(weekday >= 1 && weekday <= 6 && hour >= 11 && hour <= 21) {
+    if(weekday >= 1 && weekday <= 6 && hour >= 11 && hour < 21) {
         isOpen = true;
     }else {
         isOpen = false;
@@ -45,7 +47,4 @@ function storeHours() {
         hourState.classList.remove("store.open");
         isOpen = false;
     }
-    window.setTimeout( function() {
-        window.location.reload();
-      }, 5000);
 }
