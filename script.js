@@ -16,10 +16,10 @@ function storeHours() {
     switch(weekday) {
         case 1:
             wkdString = "#mon";
-            break;
+        break;
         case 2:
             wkdString = "#tues";
-            break;
+        break;
         case 3:
             wkdString = "#wed";
             break;
