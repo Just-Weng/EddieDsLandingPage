@@ -2,7 +2,7 @@
 :root {
     --primary-red: #008000;
     --primary-green: #ff0000;
-    --primary-white: #f6f6f5;
+    --primary-white: #ffffff;
     --secondary-light: #ff0000;
 }
 
@@ -69,6 +69,7 @@
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     font-size: 3.5rem;
+
 }
 
 /* Reduce space above and below the "About Eddie D's" title */
@@ -90,6 +91,8 @@
     align-items: center;
     margin-top: -10px; /* Moves text and image closer to the title */
 }
+
+
 
 .about-heading {
     position: absolute;
@@ -113,11 +116,26 @@
     border: 2px solid var(--primary-green);
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+#menu h1{
+    text-shadow: 1px 1px 2px rgba(62, 62, 62, 0.65);
+    font-size: 3.5rem;
 
 }
 
+.menu-item:hover {
+    font-weight: bold;
+}
 
+.menu-section h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
 
+.menu-item h5 {
+    font-size: 25px;
+}
 
 .menu-item {
     border-bottom: 1px solid #ddd;
@@ -128,7 +146,7 @@
     background-position: top;
     border-radius: 5px;
     margin-bottom: 10px;
-
+    font-size: 1.75rem;
 
 }
 
@@ -160,7 +178,11 @@ footer {
     background: var(--primary-red);
     color: var(--primary-white);
     border-top: 5px solid var(--primary-green);
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 10px rgba(74, 74, 74, 0.5);
+}
+
+footer p {
+    color: var(--primary-white);
 }
 
 /* Responsive tweaks */
