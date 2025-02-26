@@ -1,9 +1,9 @@
 /* Color Variables */
 :root {
-    --primary-red: #fa2812;
+    --primary-red: #008000;
     --primary-green: #ff0000;
-    --primary-white: #ffffff;
-    --secondary-light: #fdfdfd;
+    --primary-white: #f6f6f5;
+    --secondary-light: #ff0000;
 }
 
 /* Navigation with a subtle gradient and shadow for a tactile look */
@@ -12,6 +12,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+
+.alert-warning{
+    color: var(--secondary-light);
+    background-color: var(--primary-white);
+    border-color: var(--secondary-light);
+}
 
 
 .navbar-brand {
@@ -39,6 +45,9 @@
     color: #ffffff !important; /* Bright accent color */
     border-bottom: 2px solid rgba(255, 255, 255, 0.9);
 }
+
+
+
 
 /* Hero Section with a layered background for skeuomorphic texture */
 .hero {
