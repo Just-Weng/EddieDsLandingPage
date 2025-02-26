@@ -75,12 +75,14 @@
 #about h2 {
     margin-bottom: 1px; /* Reduces space below the title */
     margin-top: -50px; /* Moves the title closer to the content */
+    font-weight: bold;
 }
 
 /* Reduce the top padding of the About section */
 #about {
     padding-top: 20px; /* Moves the whole section up */
     padding-bottom: 60px;
+    font-size: 25px;
 }
 
 /* Ensure the row elements stay aligned properly */
